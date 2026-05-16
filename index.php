@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Gym Management System</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+
 <body>
 
 <header class="navbar">
-    <div class="logo">GYM MANAGEMENT SYSTEM</div>
+    <div class="logo">AURA FITNESS CLUB</div>
 
     <nav class="nav-links">
         <a href="index.php">HOME</a>
@@ -19,17 +16,16 @@
 
 <section class="hero">
     <div>
-        <h1>STRONG BODY.<br>STRONGER <span>YOU.</span></h1>
+        <h1>TRAIN WITH<br><span>PURPOSE.</span><br>MOVE WITH<br><span>PRESTIGE.</span></h1>
 
         <p>
-            Train in a modern fitness environment designed to help you become stronger,
-            healthier, and more confident. Join expert-led classes, track your progress,
-            and become part of a motivating gym community.
+            Experience a premium fitness space designed for strength, confidence, and personal growth.
+            Join expert-led classes, train with quality equipment, and become part of an exclusive fitness community.
         </p>
 
         <div class="hero-buttons">
-            <a href="register.php" class="btn">JOIN NOW</a>
-            <a href="classes.php" class="btn-outline">VIEW CLASSES</a>
+            <a href="register.php" class="btn">REQUEST MEMBERSHIP</a>
+            <a href="classes.php" class="btn-outline">EXPLORE CLASSES</a>
         </div>
     </div>
 
@@ -40,23 +36,23 @@
 
 <section class="features">
     <div class="feature-card">
-        <h3>Strength Training</h3>
-        <p>Modern equipment and professional guidance to help you build strength safely.</p>
+        <h3>Premium Equipment</h3>
+        <p>Train with modern equipment designed for strength, performance, and comfort.</p>
     </div>
 
     <div class="feature-card">
-        <h3>Group Classes</h3>
-        <p>High-energy classes including HIIT, yoga, cardio, Pilates and functional training.</p>
+        <h3>Private Atmosphere</h3>
+        <p>Enjoy a calm, focused, and exclusive space created for serious fitness goals.</p>
     </div>
 
     <div class="feature-card">
-        <h3>Expert Coaches</h3>
-        <p>Train with experienced fitness professionals focused on your progress.</p>
+        <h3>Expert Coaching</h3>
+        <p>Work with experienced trainers who support your progress and technique.</p>
     </div>
 
     <div class="feature-card">
-        <h3>Fitness Community</h3>
-        <p>Join a motivating environment focused on discipline, confidence, and results.</p>
+        <h3>Exclusive Classes</h3>
+        <p>Join premium group sessions including strength, Pilates, HIIT, and mobility training.</p>
     </div>
 </section>
 

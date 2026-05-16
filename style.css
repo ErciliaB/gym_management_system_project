@@ -244,3 +244,58 @@ a {
     color: #c8a96b;
     text-decoration: none;
 }
+
+.membership-preview {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.membership-preview h2 {
+    font-size: 42px;
+    font-weight: 300;
+    color: #c8a96b;
+    margin-bottom: 15px;
+}
+
+.membership-preview p {
+    color: #d8d0c2;
+    margin-bottom: 40px;
+}
+
+.membership-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.membership-card {
+    background: rgba(18, 18, 18, 0.9);
+    border: 1px solid #3a2d12;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+.membership-card h3 {
+    color: #f5f0e6;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.membership-card span {
+    display: block;
+    color: #c8a96b;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.featured {
+    border: 1px solid #c8a96b;
+    transform: translateY(-10px);
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #2b2418;
+    color: #c8a96b;
+}
