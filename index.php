@@ -22,8 +22,9 @@
         <h1>STRONG BODY.<br>STRONGER <span>YOU.</span></h1>
 
         <p>
-            Join our gym community and manage your fitness journey online.
-            Register, log in, view classes, and book sessions through one secure system.
+            Train in a modern fitness environment designed to help you become stronger,
+            healthier, and more confident. Join expert-led classes, track your progress,
+            and become part of a motivating gym community.
         </p>
 
         <div class="hero-buttons">
@@ -39,23 +40,23 @@
 
 <section class="features">
     <div class="feature-card">
-        <h3>Secure Login</h3>
-        <p>Password hashing and session protection keep member accounts secure.</p>
+        <h3>Strength Training</h3>
+        <p>Modern equipment and professional guidance to help you build strength safely.</p>
     </div>
 
     <div class="feature-card">
-        <h3>Class Booking</h3>
-        <p>Members can view available classes and book online.</p>
+        <h3>Group Classes</h3>
+        <p>High-energy classes including HIIT, yoga, cardio, Pilates and functional training.</p>
     </div>
 
     <div class="feature-card">
-        <h3>Member Dashboard</h3>
-        <p>Users can access their account area after logging in.</p>
+        <h3>Expert Coaches</h3>
+        <p>Train with experienced fitness professionals focused on your progress.</p>
     </div>
 
     <div class="feature-card">
-        <h3>Ethical Data Use</h3>
-        <p>The system stores only required member details for gym services.</p>
+        <h3>Fitness Community</h3>
+        <p>Join a motivating environment focused on discipline, confidence, and results.</p>
     </div>
 </section>
 
