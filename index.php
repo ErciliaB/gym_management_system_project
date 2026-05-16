@@ -34,7 +34,7 @@
     </div>
 
     <div class="hero-image">
-        <p>Gym image / banner placeholder</p>
+        <img src="images/gym.png" alt="Luxury Gym">
     </div>
 </section>
 
