@@ -2,7 +2,7 @@
 $host = "localhost";
 $username = "root";
 $password = "";
-$database = "gym_management_system";
+$database = "aura_fitness_db";
 
 $conn = mysqli_connect($host, $username, $password, $database);
 
