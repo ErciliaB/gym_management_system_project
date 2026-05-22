@@ -27,7 +27,7 @@ if (isset($_POST['register'])) {
 </head>
 <body>
 
-<h2>Register</h2>
+<h2>Registers</h2>
 
 <p><?php echo $message; ?></p>
 
