@@ -20,9 +20,11 @@ $result = mysqli_query($conn, $sql);
     <div class="logo">AURA FITNESS CLUB</div>
 
     <nav class="nav-links">
-        <a href="index.php">HOME</a>
-        <a href="dashboard.php">DASHBOARD</a>
-        <a href="logout.php">LOGOUT</a>
+       <a href="dashboard.php">DASHBOARD</a>
+       <a href="my_bookings.php">MY BOOKINGS</a>
+       <a href="access_card.php">ACCESS CARD</a>
+       <a href="membership.php">MEMBERSHIPS</a>
+       <a href="contact.php">CONTACT</a>
     </nav>
 </header>
 

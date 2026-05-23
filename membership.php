@@ -16,6 +16,7 @@ $result = mysqli_query($conn, "SELECT * FROM memberships");
     <nav class="nav-links">
         <a href="index.php">HOME</a>
         <a href="classes.php">CLASSES</a>
+        <a href="contact.php">CONTACT</a>
         <a href="register.php">REGISTER</a>
         <a href="login.php">LOGIN</a>
     </nav>
