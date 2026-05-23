@@ -99,6 +99,12 @@ $messages_count = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM contact_mes
             <br>
             <a class="btn" href="view_messages.php">Open</a>
         </div>
+        <div class="feature-card">
+             <h3>Manage Trainers</h3>
+             <p>Add, edit and delete trainer profiles.</p>
+             <br>
+             <a class="btn" href="manage_trainers.php">Open</a>
+        </div>
 
     </div>
 
