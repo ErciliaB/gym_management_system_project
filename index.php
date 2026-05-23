@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+    <title>Aura Fitness Club</title>
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
 <body>
 
 <header class="navbar">
