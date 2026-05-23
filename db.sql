@@ -66,4 +66,13 @@ INSERT INTO classes (class_name, class_date, class_time, capacity, class_descrip
 VALUES
 ('Morning Yoga', '2026-06-01', '08:00:00', 20, 'Relaxing yoga session for all levels', 3),
 ('HIIT Training', '2026-06-02', '18:00:00', 15, 'High intensity workout class', 2),
-('Strength Basics', '2026-06-03', '17:30:00', 18, 'Beginner strength training session', 1);
+('Strength Basics', '2026-06-03', '17:30:00', 18, 'Beginner strength training session', 1),
+('Pilates Core', '2026-06-04', '09:00:00', 16, 'Improve flexibility, posture and core strength', 3),
+('Advanced Strength', '2026-06-05', '18:30:00', 12, 'Strength training using free weights and machines', 1),
+('Boxing Fitness', '2026-06-06', '17:00:00', 20, 'Cardio boxing workout focused on endurance and coordination', 2),
+('Functional Training', '2026-06-07', '10:00:00', 15, 'Full body workout designed to improve everyday movement and strength', 1),
+('Spin Class', '2026-06-08', '06:30:00', 18, 'Indoor cycling session with music and resistance training', 2),
+('Mobility and Recovery', '2026-06-09', '19:00:00', 20, 'Stretching and mobility exercises to improve flexibility and recovery', 3),
+('Bootcamp Challenge', '2026-06-10', '18:00:00', 25, 'High energy circuit training class', 2),
+('Women Strength Club', '2026-06-11', '17:30:00', 15, 'Strength and confidence focused training for women', 1),
+('Elite Athlete Conditioning', '2026-06-12', '19:00:00', 10, 'Advanced conditioning program for experienced members', 2);
