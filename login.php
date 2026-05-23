@@ -79,18 +79,26 @@ exit();
 
             <br><br>
 
-            <button type="submit">
-                Login
-            </button>
+           <button type="submit">
+    Login
+</button>
 
-        </form>
+</form>
 
-        <br>
+<br>
 
-        <p>
-            Don't have an account?
-            <a href="register.php">Register Here</a>
-        </p>
+<p>
+    <a href="forgot_password.php">
+        Forgot Password?
+    </a>
+</p>
+
+<br>
+
+<p>
+    Don't have an account?
+    <a href="register.php">Register Here</a>
+</p>
 
     </div>
 
