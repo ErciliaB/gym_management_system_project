@@ -59,6 +59,15 @@
         <h3>Exclusive Classes</h3>
         <p>Join premium group sessions including strength, Pilates, HIIT, and mobility training.</p>
     </div>
+    <footer class="footer">
+    <p>&copy; 2026 Aura Fitness Club. All Rights Reserved.</p>
+
+    <p>
+        Canberra, ACT |
+        contact@aurafitness.com |
+        (02) 1234 5678
+    </p>
+</footer>
 </section>
 
 </body>
