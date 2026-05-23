@@ -30,10 +30,13 @@ $user = mysqli_fetch_assoc($result);
     <div class="logo">AURA FITNESS CLUB</div>
 
     <nav class="nav-links">
-        <a href="index.php">HOME</a>
-        <a href="classes.php">CLASSES</a>
-        <a href="dashboard.php">DASHBOARD</a>
-        <a href="logout.php">LOGOUT</a>
+ <a href="dashboard.php">DASHBOARD</a>
+<a href="classes.php">CLASSES</a>
+<a href="my_bookings.php">MY BOOKINGS</a>
+<a href="access_card.php">ACCESS CARD</a>
+<a href="membership.php">MEMBERSHIPS</a>
+<a href="contact.php">CONTACT</a>
+<a href="logout.php">LOGOUT</a>
     </nav>
 </header>
 
