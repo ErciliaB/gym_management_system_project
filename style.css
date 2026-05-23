@@ -299,3 +299,13 @@ footer {
     border-top: 1px solid #2b2418;
     color: #c8a96b;
 }
+select{
+    width:100%;
+    max-width:400px;
+    padding:14px;
+    margin:10px 0;
+    background:#080808;
+    border:1px solid #333;
+    color:white;
+    border-radius:8px;
+}

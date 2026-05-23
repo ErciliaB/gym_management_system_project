@@ -9,7 +9,7 @@ if (isset($_POST['register'])) {
     $last_name = mysqli_real_escape_string($conn, $_POST['last_name']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $phone = mysqli_real_escape_string($conn, $_POST['phone']);
-    $membership_id = $_POST['membership_id'];
+    $membership_id = mysqli_real_escape_string($conn, $_POST['membership_id']);
 
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
@@ -17,7 +17,9 @@ if (isset($_POST['register'])) {
     $check_result = mysqli_query($conn, $check_email);
 
     if (mysqli_num_rows($check_result) > 0) {
+
         $message = "Email already exists.";
+
     } else {
 
         $sql = "INSERT INTO users
@@ -26,7 +28,7 @@ if (isset($_POST['register'])) {
                 ('$first_name', '$last_name', '$email', '$password', '$phone', '$membership_id')";
 
         if (mysqli_query($conn, $sql)) {
-            $message = "Registration successful!";
+            $message = "Registration successful! You can now login.";
         } else {
             $message = "Error: " . mysqli_error($conn);
         }
@@ -60,7 +62,9 @@ $membership_result = mysqli_query($conn, $membership_query);
 
         <h1>Create Account</h1>
 
-        <p><?php echo $message; ?></p>
+        <?php if (!empty($message)) { ?>
+            <p><?php echo $message; ?></p>
+        <?php } ?>
 
         <form method="POST">
 
@@ -93,7 +97,7 @@ $membership_result = mysqli_query($conn, $membership_query);
 
                 <option value="">Select Membership</option>
 
-                <?php while($membership = mysqli_fetch_assoc($membership_result)) { ?>
+                <?php while ($membership = mysqli_fetch_assoc($membership_result)) { ?>
 
                     <option value="<?php echo $membership['membership_id']; ?>">
                         <?php echo $membership['membership_name']; ?>
@@ -105,8 +109,7 @@ $membership_result = mysqli_query($conn, $membership_query);
 
             <br><br>
 
-            <button type="submit"
-                    name="register">
+            <button type="submit" name="register">
                 Register
             </button>
 
