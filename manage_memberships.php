@@ -23,23 +23,29 @@ $result = mysqli_query($conn, "SELECT * FROM memberships");
 
 <section class="page-container">
 
-    <h1>Manage Membership Plans</h1>
+    <h1 style="margin-bottom: 20px;">
+        Manage Membership Plans
+    </h1>
 
-    <a href="add_membership.php" class="btn">
-        Add Membership
-    </a>
-
-    <br><br>
+    <div style="margin-bottom: 30px;">
+        <a href="add_membership.php" class="btn">
+            Add Membership
+        </a>
+    </div>
 
     <table class="data-table">
 
-        <tr>
-            <th>ID</th>
-            <th>Plan</th>
-            <th>Duration</th>
-            <th>Price</th>
-            <th>Actions</th>
-        </tr>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Plan</th>
+                <th>Duration</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
 
         <?php while($row = mysqli_fetch_assoc($result)) { ?>
 
@@ -61,7 +67,8 @@ $result = mysqli_query($conn, "SELECT * FROM memberships");
                 </a>
 
                 <a class="btn-outline"
-                   href="delete_membership.php?id=<?php echo $row['membership_id']; ?>">
+                   href="delete_membership.php?id=<?php echo $row['membership_id']; ?>"
+                   onclick="return confirm('Delete this membership?');">
                     Delete
                 </a>
 
@@ -70,6 +77,8 @@ $result = mysqli_query($conn, "SELECT * FROM memberships");
         </tr>
 
         <?php } ?>
+
+        </tbody>
 
     </table>
 
