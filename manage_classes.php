@@ -30,13 +30,15 @@ $result = mysqli_query($conn, $sql);
 
 <section class="page-container">
 
-    <h1>Manage Classes</h1>
+   <h1 style="margin-bottom: 20px;">
+    Manage Classes
+</h1>
 
+<div style="margin-bottom: 30px;">
     <a href="add_class.php" class="btn">
         Add New Class
     </a>
-
-    <br><br>
+</div>
 
     <table class="data-table">
 
