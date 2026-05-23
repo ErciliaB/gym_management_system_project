@@ -309,3 +309,81 @@ select{
     color:white;
     border-radius:8px;
 }
+.class-scroll {
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    padding: 30px 0;
+    scroll-behavior: smooth;
+}
+
+.class-card {
+    min-width: 320px;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 20px;
+    padding: 30px;
+    flex-shrink: 0;
+    box-shadow: 0 0 25px rgba(198, 255, 0, 0.08);
+}
+
+.class-card h2 {
+    color: #c6ff00;
+    margin-bottom: 20px;
+}
+
+.class-card p {
+    color: #d6d6d6;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.class-description {
+    min-height: 70px;
+}
+
+.class-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.class-scroll::-webkit-scrollbar-thumb {
+    background: #c6ff00;
+    border-radius: 10px;
+}
+
+.class-scroll::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.class-scroll {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 25px;
+    overflow-x: auto;
+    padding: 30px 0;
+    width: 100%;
+}
+
+.class-card {
+    min-width: 320px !important;
+    max-width: 320px;
+    flex: 0 0 320px !important;
+    background: rgba(18, 18, 18, 0.95);
+    border: 1px solid #c8a96b;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.class-card h2 {
+    color: #c8a96b;
+    margin-bottom: 15px;
+}
+
+.class-card p {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.class-description {
+    min-height: 60px;
+}
