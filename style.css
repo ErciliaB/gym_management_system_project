@@ -387,3 +387,50 @@ select{
 .class-description {
     min-height: 60px;
 }
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 140px;
+    padding: 14px;
+    margin: 10px 0;
+    background: #080808;
+    border: 1px solid #333;
+    color: white;
+    border-radius: 8px;
+}
+
+.access-card {
+    max-width: 520px;
+    background: linear-gradient(135deg, #111, #050505);
+    border: 2px solid #c8a96b;
+    border-radius: 28px;
+    padding: 40px;
+    box-shadow: 0 0 30px rgba(200, 169, 107, 0.2);
+}
+
+.access-card h1 {
+    color: #c8a96b;
+    letter-spacing: 3px;
+}
+
+.access-code {
+    margin-top: 25px;
+    padding: 15px;
+    background: #c8a96b;
+    color: #000;
+    font-weight: bold;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.qr-box {
+    margin-top: 25px;
+    width: 130px;
+    height: 130px;
+    border: 2px dashed #c8a96b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c8a96b;
+}
