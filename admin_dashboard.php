@@ -97,7 +97,7 @@ $messages_count = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM contact_mes
             <h3>Contact Messages</h3>
             <p>View messages sent through the contact form.</p>
             <br>
-            <a class="btn" href="view_messages.php">Open</a>
+            <a class="btn" href="view_all_bookings.php">Open</a>
         </div>
 
     </div>
