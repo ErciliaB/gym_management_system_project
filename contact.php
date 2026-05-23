@@ -3,13 +3,14 @@ include "db_connect.php";
 
 $message_status = "";
 
-if (isset($_POST['send'])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
     $full_name = mysqli_real_escape_string($conn, $_POST['full_name']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $message = mysqli_real_escape_string($conn, $_POST['message']);
+    $user_message = mysqli_real_escape_string($conn, $_POST['user_message']);
 
     $sql = "INSERT INTO contact_messages (full_name, email, message)
-            VALUES ('$full_name', '$email', '$message')";
+            VALUES ('$full_name', '$email', '$user_message')";
 
     if (mysqli_query($conn, $sql)) {
         $message_status = "Message sent successfully.";
@@ -45,12 +46,14 @@ if (isset($_POST['send'])) {
 
         <form method="POST">
             <input type="text" name="full_name" placeholder="Full Name" required>
+
             <input type="email" name="email" placeholder="Email Address" required>
 
-            <textarea name="message" placeholder="Write your message" required></textarea>
+            <textarea name="user_message" placeholder="Write your message" required></textarea>
+
             <br><br>
 
-            <button type="submit" name="send">Send Message</button>
+            <button type="submit">Send Message</button>
         </form>
     </div>
 </section>

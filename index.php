@@ -12,6 +12,8 @@
     <nav class="nav-links">
         <a href="index.php">HOME</a>
         <a href="classes.php">CLASSES</a>
+        <a href="membership.php">MEMBERSHIP</a>
+        <a href="contact.php">CONTACT</a>
         <a href="login.php">LOGIN</a>
         <a href="register.php">REGISTER</a>
     </nav>
