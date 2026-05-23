@@ -50,6 +50,14 @@ CREATE TABLE bookings (
     FOREIGN KEY (class_id) REFERENCES classes(class_id)
 );
 
+CREATE TABLE contact_messages (
+    message_id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    message TEXT NOT NULL,
+    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 INSERT INTO memberships (membership_name, duration, price, benefits)
 VALUES
 ('Basic', '1 Month', 49.99, 'Access to gym equipment'),
@@ -76,3 +84,10 @@ VALUES
 ('Bootcamp Challenge', '2026-06-10', '18:00:00', 25, 'High energy circuit training class', 2),
 ('Women Strength Club', '2026-06-11', '17:30:00', 15, 'Strength and confidence focused training for women', 1),
 ('Elite Athlete Conditioning', '2026-06-12', '19:00:00', 10, 'Advanced conditioning program for experienced members', 2);
+
+INSERT INTO contact_messages
+(full_name, email, message)
+VALUES
+('John Smith', 'john@example.com', 'I would like more information about membership plans.'),
+('Emily Brown', 'emily@example.com', 'What classes are available for beginners?'),
+('David Wilson', 'david@example.com', 'Can I book classes online through the website?');
