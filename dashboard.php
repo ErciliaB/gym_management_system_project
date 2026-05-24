@@ -62,12 +62,19 @@ $user = mysqli_fetch_assoc($result);
             <a class="btn" href="classes.php">View Classes</a>
         </div>
 
-        <div class="feature-card">
-            <h3>Access Card</h3>
-            <p>View your digital gym access card.</p>
-            <br>
-            <a class="btn-outline" href="#">Coming Soon</a>
-        </div>
+       <div class="feature-card">
+    <h3>Access Card</h3>
+
+   <p>
+    Access your digital membership card.
+</p>
+
+<br>
+
+<a class="btn" href="access_card.php">
+    Open Card
+</a>
+</div>
 
         <div class="feature-card">
             <h3>Account</h3>
